@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		77543B8E1E130293003A77E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543B8D1E130293003A77E3 /* main.m */; };
 		77543B911E130293003A77E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543B901E130293003A77E3 /* AppDelegate.m */; };
-		77543B941E130293003A77E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543B931E130293003A77E3 /* ViewController.m */; };
 		77543B971E130293003A77E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77543B951E130293003A77E3 /* Main.storyboard */; };
 		77543B991E130293003A77E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77543B981E130293003A77E3 /* Assets.xcassets */; };
 		77543B9C1E130293003A77E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77543B9A1E130293003A77E3 /* LaunchScreen.storyboard */; };
 		77543BA71E130293003A77E3 /* CipherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BA61E130293003A77E3 /* CipherAppTests.m */; };
 		77543BB21E130294003A77E3 /* CipherAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BB11E130294003A77E3 /* CipherAppUITests.m */; };
+		77543BC41E131C1C003A77E3 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BC31E131C1C003A77E3 /* NSData+AES.m */; };
+		77543BC71E131C83003A77E3 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BC61E131C83003A77E3 /* NSString+AES.m */; };
+		77543BCB1E131F69003A77E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77543BCA1E131F69003A77E3 /* Security.framework */; };
+		77543BD31E13BC17003A77E3 /* SharedKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BD21E13BC17003A77E3 /* SharedKeyPair.m */; };
+		77543BD61E13BEE1003A77E3 /* NSData+RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BD51E13BEE1003A77E3 /* NSData+RSA.m */; };
+		77543BD91E13BF10003A77E3 /* NSString+RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543BD81E13BF10003A77E3 /* NSString+RSA.m */; };
+		77543C031E13CE3D003A77E3 /* CAAppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C021E13CE3D003A77E3 /* CAAppDependencies.m */; };
+		77543C061E13CF33003A77E3 /* CAEncryptDecryptWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C051E13CF33003A77E3 /* CAEncryptDecryptWireframe.m */; };
+		77543C091E13CFC3003A77E3 /* CAEncryptDecryptPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C081E13CFC3003A77E3 /* CAEncryptDecryptPresenter.m */; };
+		77543C121E13D10A003A77E3 /* CAEncryptDecryptInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C111E13D10A003A77E3 /* CAEncryptDecryptInteractor.m */; };
+		77543C1B1E13DC6B003A77E3 /* CAEncryptDecryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C191E13DC6B003A77E3 /* CAEncryptDecryptViewController.m */; };
+		77543C1C1E13DC6B003A77E3 /* CAEncryptDecryptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77543C1A1E13DC6B003A77E3 /* CAEncryptDecryptViewController.xib */; };
+		77543C231E13E4FC003A77E3 /* CARootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C221E13E4FC003A77E3 /* CARootWireframe.m */; };
+		77543C271E143FE1003A77E3 /* NSStringAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C261E143FE1003A77E3 /* NSStringAESTests.m */; };
+		77543C291E144384003A77E3 /* NSStringRSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C281E144384003A77E3 /* NSStringRSATests.m */; };
+		77543C2B1E144810003A77E3 /* CAEncryptDecryptViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C2A1E144810003A77E3 /* CAEncryptDecryptViewTests.m */; };
+		77543C2D1E145105003A77E3 /* CAEncryptDecryptInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77543C2C1E145105003A77E3 /* CAEncryptDecryptInteractorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +53,8 @@
 /* Begin PBXFileReference section */
 		77543B891E130293003A77E3 /* CipherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CipherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77543B8D1E130293003A77E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77543B8F1E130293003A77E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		77543B901E130293003A77E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77543B921E130293003A77E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77543B931E130293003A77E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77543B8F1E130293003A77E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		77543B901E130293003A77E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		77543B961E130293003A77E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77543B981E130293003A77E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77543B9B1E130293003A77E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,38 @@
 		77543BAD1E130294003A77E3 /* CipherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77543BB11E130294003A77E3 /* CipherAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CipherAppUITests.m; sourceTree = "<group>"; };
 		77543BB31E130294003A77E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77543BC21E131C1C003A77E3 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		77543BC31E131C1C003A77E3 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		77543BC51E131C83003A77E3 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		77543BC61E131C83003A77E3 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		77543BCA1E131F69003A77E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		77543BCC1E132A1A003A77E3 /* CipherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CipherApp.entitlements; sourceTree = "<group>"; };
+		77543BD11E13BC17003A77E3 /* SharedKeyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedKeyPair.h; sourceTree = "<group>"; };
+		77543BD21E13BC17003A77E3 /* SharedKeyPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedKeyPair.m; sourceTree = "<group>"; };
+		77543BD41E13BEE1003A77E3 /* NSData+RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RSA.h"; sourceTree = "<group>"; };
+		77543BD51E13BEE1003A77E3 /* NSData+RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+RSA.m"; sourceTree = "<group>"; };
+		77543BD71E13BF10003A77E3 /* NSString+RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RSA.h"; sourceTree = "<group>"; };
+		77543BD81E13BF10003A77E3 /* NSString+RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSA.m"; sourceTree = "<group>"; };
+		77543C011E13CE3D003A77E3 /* CAAppDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAppDependencies.h; sourceTree = "<group>"; };
+		77543C021E13CE3D003A77E3 /* CAAppDependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAppDependencies.m; sourceTree = "<group>"; };
+		77543C041E13CF33003A77E3 /* CAEncryptDecryptWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptWireframe.h; sourceTree = "<group>"; };
+		77543C051E13CF33003A77E3 /* CAEncryptDecryptWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEncryptDecryptWireframe.m; sourceTree = "<group>"; };
+		77543C071E13CFC3003A77E3 /* CAEncryptDecryptPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptPresenter.h; sourceTree = "<group>"; };
+		77543C081E13CFC3003A77E3 /* CAEncryptDecryptPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEncryptDecryptPresenter.m; sourceTree = "<group>"; };
+		77543C0A1E13D054003A77E3 /* CAEncryptDecryptViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptViewInterface.h; sourceTree = "<group>"; };
+		77543C101E13D10A003A77E3 /* CAEncryptDecryptInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptInteractor.h; sourceTree = "<group>"; };
+		77543C111E13D10A003A77E3 /* CAEncryptDecryptInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEncryptDecryptInteractor.m; sourceTree = "<group>"; };
+		77543C141E13D144003A77E3 /* CAEncryptDecryptModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptModuleInterface.h; sourceTree = "<group>"; };
+		77543C181E13DC6B003A77E3 /* CAEncryptDecryptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptViewController.h; sourceTree = "<group>"; };
+		77543C191E13DC6B003A77E3 /* CAEncryptDecryptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEncryptDecryptViewController.m; sourceTree = "<group>"; };
+		77543C1A1E13DC6B003A77E3 /* CAEncryptDecryptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAEncryptDecryptViewController.xib; sourceTree = "<group>"; };
+		77543C211E13E4FC003A77E3 /* CARootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARootWireframe.h; sourceTree = "<group>"; };
+		77543C221E13E4FC003A77E3 /* CARootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARootWireframe.m; sourceTree = "<group>"; };
+		77543C251E13EF3F003A77E3 /* CAEncryptDecryptInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEncryptDecryptInteractorIO.h; sourceTree = "<group>"; };
+		77543C261E143FE1003A77E3 /* NSStringAESTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAESTests.m; sourceTree = "<group>"; };
+		77543C281E144384003A77E3 /* NSStringRSATests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringRSATests.m; sourceTree = "<group>"; };
+		77543C2A1E144810003A77E3 /* CAEncryptDecryptViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEncryptDecryptViewTests.m; sourceTree = "<group>"; };
+		77543C2C1E145105003A77E3 /* CAEncryptDecryptInteractorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEncryptDecryptInteractorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77543BCB1E131F69003A77E3 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +132,7 @@
 				77543BA51E130293003A77E3 /* CipherAppTests */,
 				77543BB01E130294003A77E3 /* CipherAppUITests */,
 				77543B8A1E130293003A77E3 /* Products */,
+				77543BC91E131F69003A77E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +149,10 @@
 		77543B8B1E130293003A77E3 /* CipherApp */ = {
 			isa = PBXGroup;
 			children = (
-				77543B8F1E130293003A77E3 /* AppDelegate.h */,
-				77543B901E130293003A77E3 /* AppDelegate.m */,
-				77543B921E130293003A77E3 /* ViewController.h */,
-				77543B931E130293003A77E3 /* ViewController.m */,
+				77543BDA1E13CC6D003A77E3 /* Resources */,
+				77543BCC1E132A1A003A77E3 /* CipherApp.entitlements */,
+				77543BBF1E131C05003A77E3 /* Classes */,
 				77543B951E130293003A77E3 /* Main.storyboard */,
-				77543B981E130293003A77E3 /* Assets.xcassets */,
-				77543B9A1E130293003A77E3 /* LaunchScreen.storyboard */,
-				77543B9D1E130293003A77E3 /* Info.plist */,
 				77543B8C1E130293003A77E3 /* Supporting Files */,
 			);
 			path = CipherApp;
@@ -127,6 +171,10 @@
 			children = (
 				77543BA61E130293003A77E3 /* CipherAppTests.m */,
 				77543BA81E130294003A77E3 /* Info.plist */,
+				77543C261E143FE1003A77E3 /* NSStringAESTests.m */,
+				77543C281E144384003A77E3 /* NSStringRSATests.m */,
+				77543C2A1E144810003A77E3 /* CAEncryptDecryptViewTests.m */,
+				77543C2C1E145105003A77E3 /* CAEncryptDecryptInteractorTests.m */,
 			);
 			path = CipherAppTests;
 			sourceTree = "<group>";
@@ -138,6 +186,164 @@
 				77543BB31E130294003A77E3 /* Info.plist */,
 			);
 			path = CipherAppUITests;
+			sourceTree = "<group>";
+		};
+		77543BBF1E131C05003A77E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77543BDB1E13CD76003A77E3 /* Modules */,
+				77543B8F1E130293003A77E3 /* AppDelegate.h */,
+				77543B901E130293003A77E3 /* AppDelegate.m */,
+				77543BC01E131C05003A77E3 /* Common */,
+				77543C011E13CE3D003A77E3 /* CAAppDependencies.h */,
+				77543C021E13CE3D003A77E3 /* CAAppDependencies.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		77543BC01E131C05003A77E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				77543C1D1E13E4BF003A77E3 /* View */,
+				77543BCD1E13B33C003A77E3 /* Helpers */,
+				77543BC11E131C05003A77E3 /* Categories */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		77543BC11E131C05003A77E3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				77543BC21E131C1C003A77E3 /* NSData+AES.h */,
+				77543BC31E131C1C003A77E3 /* NSData+AES.m */,
+				77543BC51E131C83003A77E3 /* NSString+AES.h */,
+				77543BC61E131C83003A77E3 /* NSString+AES.m */,
+				77543BD41E13BEE1003A77E3 /* NSData+RSA.h */,
+				77543BD51E13BEE1003A77E3 /* NSData+RSA.m */,
+				77543BD71E13BF10003A77E3 /* NSString+RSA.h */,
+				77543BD81E13BF10003A77E3 /* NSString+RSA.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		77543BC91E131F69003A77E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77543BCA1E131F69003A77E3 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77543BCD1E13B33C003A77E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				77543BD11E13BC17003A77E3 /* SharedKeyPair.h */,
+				77543BD21E13BC17003A77E3 /* SharedKeyPair.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		77543BDA1E13CC6D003A77E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77543B9D1E130293003A77E3 /* Info.plist */,
+				77543B9A1E130293003A77E3 /* LaunchScreen.storyboard */,
+				77543B981E130293003A77E3 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		77543BDB1E13CD76003A77E3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				77543BDC1E13CD76003A77E3 /* CAEncryptDecrypt */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		77543BDC1E13CD76003A77E3 /* CAEncryptDecrypt */ = {
+			isa = PBXGroup;
+			children = (
+				77543BDD1E13CD76003A77E3 /* Application Logic */,
+				77543BE41E13CD76003A77E3 /* Module Interface */,
+			);
+			path = CAEncryptDecrypt;
+			sourceTree = "<group>";
+		};
+		77543BDD1E13CD76003A77E3 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				77543BDE1E13CD76003A77E3 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		77543BDE1E13CD76003A77E3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				77543C101E13D10A003A77E3 /* CAEncryptDecryptInteractor.h */,
+				77543C111E13D10A003A77E3 /* CAEncryptDecryptInteractor.m */,
+				77543C251E13EF3F003A77E3 /* CAEncryptDecryptInteractorIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		77543BE41E13CD76003A77E3 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				77543C141E13D144003A77E3 /* CAEncryptDecryptModuleInterface.h */,
+				77543BE71E13CD76003A77E3 /* User Interface */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		77543BE71E13CD76003A77E3 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				77543BE81E13CD76003A77E3 /* Presenter */,
+				77543BF01E13CD76003A77E3 /* View */,
+				77543BF41E13CD76003A77E3 /* Wireframe */,
+			);
+			name = "User Interface";
+			path = "../User Interface";
+			sourceTree = "<group>";
+		};
+		77543BE81E13CD76003A77E3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				77543C071E13CFC3003A77E3 /* CAEncryptDecryptPresenter.h */,
+				77543C081E13CFC3003A77E3 /* CAEncryptDecryptPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		77543BF01E13CD76003A77E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77543C0A1E13D054003A77E3 /* CAEncryptDecryptViewInterface.h */,
+				77543C181E13DC6B003A77E3 /* CAEncryptDecryptViewController.h */,
+				77543C191E13DC6B003A77E3 /* CAEncryptDecryptViewController.m */,
+				77543C1A1E13DC6B003A77E3 /* CAEncryptDecryptViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77543BF41E13CD76003A77E3 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				77543C041E13CF33003A77E3 /* CAEncryptDecryptWireframe.h */,
+				77543C051E13CF33003A77E3 /* CAEncryptDecryptWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		77543C1D1E13E4BF003A77E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77543C211E13E4FC003A77E3 /* CARootWireframe.h */,
+				77543C221E13E4FC003A77E3 /* CARootWireframe.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +415,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = MLW8H2UV2T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					77543BA11E130293003A77E3 = {
 						CreatedOnToolsVersion = 8.1;
@@ -251,6 +462,7 @@
 			files = (
 				77543B9C1E130293003A77E3 /* LaunchScreen.storyboard in Resources */,
 				77543B991E130293003A77E3 /* Assets.xcassets in Resources */,
+				77543C1C1E13DC6B003A77E3 /* CAEncryptDecryptViewController.xib in Resources */,
 				77543B971E130293003A77E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +488,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77543B941E130293003A77E3 /* ViewController.m in Sources */,
+				77543C231E13E4FC003A77E3 /* CARootWireframe.m in Sources */,
 				77543B911E130293003A77E3 /* AppDelegate.m in Sources */,
+				77543BD61E13BEE1003A77E3 /* NSData+RSA.m in Sources */,
+				77543C121E13D10A003A77E3 /* CAEncryptDecryptInteractor.m in Sources */,
+				77543BC71E131C83003A77E3 /* NSString+AES.m in Sources */,
+				77543BC41E131C1C003A77E3 /* NSData+AES.m in Sources */,
+				77543C031E13CE3D003A77E3 /* CAAppDependencies.m in Sources */,
+				77543BD31E13BC17003A77E3 /* SharedKeyPair.m in Sources */,
+				77543C061E13CF33003A77E3 /* CAEncryptDecryptWireframe.m in Sources */,
+				77543BD91E13BF10003A77E3 /* NSString+RSA.m in Sources */,
+				77543C091E13CFC3003A77E3 /* CAEncryptDecryptPresenter.m in Sources */,
 				77543B8E1E130293003A77E3 /* main.m in Sources */,
+				77543C1B1E13DC6B003A77E3 /* CAEncryptDecryptViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +508,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77543C2B1E144810003A77E3 /* CAEncryptDecryptViewTests.m in Sources */,
 				77543BA71E130293003A77E3 /* CipherAppTests.m in Sources */,
+				77543C2D1E145105003A77E3 /* CAEncryptDecryptInteractorTests.m in Sources */,
+				77543C271E143FE1003A77E3 /* NSStringAESTests.m in Sources */,
+				77543C291E144384003A77E3 /* NSStringRSATests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CipherApp/CipherApp.entitlements;
 				DEVELOPMENT_TEAM = MLW8H2UV2T;
 				INFOPLIST_FILE = CipherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CipherApp/CipherApp.entitlements;
 				DEVELOPMENT_TEAM = MLW8H2UV2T;
 				INFOPLIST_FILE = CipherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

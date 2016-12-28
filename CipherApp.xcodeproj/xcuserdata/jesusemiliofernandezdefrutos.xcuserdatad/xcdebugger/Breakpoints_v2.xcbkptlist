@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherApp/Classes/Modules/CAEncryptDecrypt/User Interface/Wireframe/CAEncryptDecrytWireframe.m"
+            timestampString = "504621535.053384"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-presentCAEncryptDecryptInterfaceFromWindow:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherApp/Classes/Modules/CAEncryptDecrypt/Application Logic/Interactor/CAEncryptDecryptInteractor.m"
+            timestampString = "504641672.383663"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-encryptText:withAESAlgorithm:andKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherApp/Classes/Modules/CAEncryptDecrypt/User Interface/View/CAEncryptDecryptViewController.m"
+            timestampString = "504648156.765058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "-textFieldShouldReturn:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherApp/Classes/Modules/CAEncryptDecrypt/User Interface/View/CAEncryptDecryptViewController.m"
+            timestampString = "504648156.765058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-encryptDecrypt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherAppTests/NSStringAESTests.m"
+            timestampString = "504645135.407224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-testEncrypt"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherAppTests/NSStringAESTests.m"
+            timestampString = "504645135.407224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-testDecrypt"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSStringAESTests testDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/NSStringAESTests.m"
+                  timestampString = "504648544.12047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "683">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSStringAESTests testDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/NSStringAESTests.m"
+                  timestampString = "504648544.121761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2068">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSStringAESTests testDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/NSStringAESTests.m"
+                  timestampString = "504648544.123048"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSStringAESTests testDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/NSStringAESTests.m"
+                  timestampString = "504648544.124308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherAppTests/CAEncryptDecryptViewTests.m"
+            timestampString = "504647093.703823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-testSetEncrypt"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetEncrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.126481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetEncrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.127769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetEncrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.12906"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "830">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetEncrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.130345"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "952">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherAppTests/CAEncryptDecryptViewTests.m"
+            timestampString = "504647470.833975"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-testSetDecrypt"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.132422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.133719"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.135017"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "830">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CAEncryptDecryptViewTests testSetDecrypt]"
+                  moduleName = "CipherAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jesusemiliofernandezdefrutos/Documents/Projects/CipherApp/CipherAppTests/CAEncryptDecryptViewTests.m"
+                  timestampString = "504648544.136578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "952">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CipherAppTests/CAEncryptDecryptInteractorTests.m"
+            timestampString = "504648328.803238"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-testEncryptTextWithAES"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
